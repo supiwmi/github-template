@@ -1,0 +1,18 @@
+{
+	"image": "mcr.microsoft.com/devcontainers/universal:2",
+	"features": {
+		"ghcr.io/dhoeric/features/hadolint:1": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"GitHub.copilot-labs",
+				"GitHub.copilot-nightly",
+				"ms-toolsai.jupyter",
+				"ms-vscode.makefile-tools",
+				"ms-python.vscode-pylance",
+				"ms-python.python"
+			]
+		}
+	}
+}
