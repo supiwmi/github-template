@@ -36,6 +36,7 @@ display the current branch
 bring changes in from another branch
 
 ```
+Example:
 
 In this example we will create a development branch and adding a new code, after then we commit the change and merge it to the main branch
 1. git checkout -b dev-branch
@@ -45,9 +46,11 @@ Let's make some changes so the dev-branch (new version) branch is newer than the
 2. git commit -m "adding new functions in development branch"
 3. git push origin dev-branch
 
-Create a Pull Request to merge development into --> main branch (so you need to switch to the main and issue git merge command
+Create a Pull Request to merge dev-branch into --> main branch (so you need to switch to the main and issue git merge command
 1. git checkout main
 2. git merge dev-branch 
 
-
+## Tips
+1. You may create the 3rd brach called "feature-branch" and then try to merge new code to dev-branch instead of main.
+2. You can create a Pull Request from Git Repo(GitHub, Bitbucket, etc.) or use the git cli as show in the example above.
 
