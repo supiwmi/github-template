@@ -36,3 +36,18 @@ display the current branch
 bring changes in from another branch
 
 ```
+
+In this example we will create a development branch and adding a new code, after then we commit the change and merge it to the main branch
+1. git checkout -b dev-branch
+
+Let's make some changes so the dev-branch (new version) branch is newer than the main(stable version)
+1. git add .
+2. git commit -m "adding new functions in development branch"
+3. git push origin dev-branch
+
+Create a Pull Request to merge development into --> main branch (so you need to switch to the main and issue git merge command
+1. git checkout main
+2. git merge dev-branch 
+
+
+
