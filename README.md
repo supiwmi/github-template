@@ -29,5 +29,10 @@ create a new branch or new "version" of the code
 * git checkout
 switch to existing branch
 
+* git branch
+display the current branch
+
+* git merge <branch>
+bring changes in from another branch
 
 ```
